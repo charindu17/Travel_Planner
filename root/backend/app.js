@@ -10,7 +10,7 @@ const app = express();
 //middleware
 app.use("/users",router);
 
-mongoose.connect("mongodb+srv://admin:IrnrWkBOrpLk4oO7@charindudl17.wgv0h.mongodb.net/")
+mongoose.connect("")
 .then(()=>{
     console.log("connected to mongodb");
 })
