@@ -11,7 +11,7 @@ const app = express();
 app.use(express.json());
 app.use("/feedbacks",router);
 
-mongoose.connect("mongodb+srv://admin:IrnrWkBOrpLk4oO7@charindudl17.wgv0h.mongodb.net/")
+mongoose.connect("/")
 .then(()=> console.log("Connected to MongoDB"))
 .then(()=> {
     app.listen(5000);
